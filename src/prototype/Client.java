@@ -6,7 +6,8 @@ public class Client {
         Model model=new Model("模板一","照片1");
         manager.register("model",model);
         Product p1=manager.create("model");
-        p1.setModelContent("模板二");
+        //修改p1的内容
+        model.setModelContent("模板二");
         p1.display();
         model.display();
     }
