@@ -1,31 +1,41 @@
 package prototype;
 
-public class Model implements Product{
+public class Model implements Product,Cloneable {
     private String modelContent;
-    private String photo;
+    private Photo photo;
+
     public Model(String modelContent,String phooto){
+        photo = new Photo(phooto);
+        System.out.println("模板创建中");
         this.modelContent=modelContent;
-        this.photo=phooto;
     }
     @Override
     public void display() {
         System.out.println(modelContent);
-        System.out.println(photo);
+        System.out.println(photo.getPhotoContent());
     }
     public void setModelContent(String modelContent){
         this.modelContent=modelContent;
     }
     public void setPhotoContent(String photoContent){
-        this.photo=photoContent;
+        photo.setPhotoContent(photoContent);
+    }
+    public Model clone(){
+        Model model=null;
+        try {//深复制
+            model=(Model)super.clone();
+            model.photo=(Photo)photo.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        return model;
     }
     @Override
     public Product createClone() {
-        Product p=null;
-        try {
-            p=(Product)clone();
-        } catch (CloneNotSupportedException e) {
-            throw new RuntimeException(e);
-        }
-        return p;
+        Product product=null;
+        product=(Product)clone();
+        return product;
     }
+
+
 }

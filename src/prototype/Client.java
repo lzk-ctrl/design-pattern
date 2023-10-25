@@ -2,13 +2,14 @@ package prototype;
 
 public class Client {
     public static void main(String[] args) {
-        Manager manager =new Manager();
-        Model model=new Model("模板一","照片1");
-        manager.register("model",model);
-        Product p1=manager.create("model");
-        //修改p1的内容
-        model.setModelContent("模板二");
-        p1.display();
-        model.display();
+        Product product = new Model("模板内容", "图片");
+        Product product1 = product.createClone();
+
+        // 修改product1的Photo对象
+        ((Model) product1).setPhotoContent("新图片");
+
+        // 显示两个对象的内容
+        product.display();
+        product1.display();
     }
 }

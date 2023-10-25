@@ -4,7 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ef78f4d-de6a-45df-a457-0118e18453a2" name="更改" comment="  1" />
+    <list default="true" id="3ef78f4d-de6a-45df-a457-0118e18453a2" name="更改" comment="  1">
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/concreteFactory/MySqlConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/concreteFactory/MySqlFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/concreteFactory/MySqlStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/concreteFactory/OracleConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/concreteFactory/OracleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/concreteFactory/OracleStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/factory/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/factory/Statement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/BMPImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/GIFImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/JPGImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/RefineApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/FormulaBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/SportsBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/TrucksBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composite/One.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easyFactory/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easyFactory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easyFactory/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easyFactory/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easyFactory/UnsupportedShapeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easyFactory/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easyFactory/shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/Photo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/CRRTMotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/PostCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/PreCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototype/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototype/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototype/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototype/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype/Product.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,15 +80,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "D:/ideaproject/design_pattern/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/ideaproject/design_pattern/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -58,7 +110,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697469376113</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="  1">
+      <option name="closed" value="true" />
+      <created>1697469862732</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697469862732</updated>
+    </task>
+    <task id="LOCAL-00003" summary="  1">
+      <option name="closed" value="true" />
+      <created>1697470134543</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697470134543</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
